@@ -75,3 +75,22 @@ main {
  #family-photo {
     padding-top: 4vw;
  }
+
+ @media (max-width: 770px) {
+    header {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-content: center;
+      justify-content: center;
+      height: 8em;
+    }
+    nav {
+      align-content: center;
+      justify-content: center;
+    }
+    ul li {
+      list-style-type: none;
+      padding: 0.3em;
+      font-size: 1.25em;
+   }
+ }
