@@ -1,4 +1,14 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
+   background-color: #F8F9FA;
+   color: #393D3F;
+}
+
+
+/* body {
    background-color: linen;
    display: grid;
    margin: 0px;
@@ -93,4 +103,4 @@ main {
       padding: 0.3em;
       font-size: 1.25em;
    }
- }
+ } */
