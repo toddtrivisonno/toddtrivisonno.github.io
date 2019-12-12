@@ -20,82 +20,35 @@
          <nav class="navbar navbar-expand-md navbar-dark bg-primary pt-1 pb-1">
             <div class="container">
 
-         
-            <a href="#">
-               <img src="img/TODD_AVATAR_48X48.png" class="card-img-top" alt="Pixel image of Todd">
-            </a>
-            <a class="btn btn-lg text-white mr-auto" href="#about" title="About Me">
-               Todd Trivisonno
-            </a>
 
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Nav Links -->
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-               <a 
-               href="#projects" 
-               alt="Projects" 
-               title="Projects"
-               >
-                  <i class="fas fa-project-diagram fa-2x pr-2 text-white"></i>
+               <a href="#">
+                  <img src="img/TODD_AVATAR_48X48.png" class="card-img-top" alt="Pixel image of Todd">
                </a>
-               <a 
-               href="https://www.linkedin.com/in/todd-trivisonno/" 
-               target="_blank" 
-               alt="LinkedIn" 
-               title="LinkedIn"
-               >
-                  <i class="fab fa-linkedin fa-3x pr-2 text-white"></i>
-               </a>
-               <a 
-               href="https://github.com/toddtrivisonno" 
-               target="_blank" 
-               alt="GitHub" 
-               title="GitHub"
-               >
-               <i
-                     class="fab fa-github-square fa-3x pr-2 text-white"></i>
+               <a class="btn btn-lg text-white mr-auto" href="#about" title="About Me">
+                  Todd Trivisonno
                </a>
 
-               <!-- Email modal -->
+               <!-- Toggler/collapsibe Button -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
 
-               <a 
-               href="#" 
-               alt="email" 
-               title="Email"
-              
-               role="button" 
-               data-toggle="modal" 
-               data-target="#emailModal" 
-
-
-               >
-                  <i class="fas fa-envelope-square fa-3x pr-2 text-white"></i>
-               </a>
-
-               <!-- Modal -->
-               <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalTitle"
-                  aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body text-center">
-                           <iframe
-                              src="https://docs.google.com/forms/d/e/1FAIpQLSe7JbI9iv4ZSDFHeTmLs_Z6zreEVk1Ngeex-5DLH3giRvFwlQ/viewform?embedded=true"
-                              width="100%" height="500" frameborder="0" marginheight="0"
-                              marginwidth="0">Loading…</iframe>
-                        </div>
-                     </div>
-                  </div>
+               <!-- Nav Links -->
+               <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                  <a href="#projects" alt="Projects" title="Projects">
+                     <i class="fas fa-project-diagram fa-2x pr-2 text-white"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/todd-trivisonno/" target="_blank" alt="LinkedIn"
+                     title="LinkedIn">
+                     <i class="fab fa-linkedin fa-3x pr-2 text-white"></i>
+                  </a>
+                  <a href="https://github.com/toddtrivisonno" target="_blank" alt="GitHub" title="GitHub">
+                     <i class="fab fa-github-square fa-3x pr-2 text-white"></i>
+                  </a>
+                  <a href="#email" alt="email" title="Email" role="button">
+                     <i class="fas fa-envelope-square fa-3x pr-2 text-white"></i>
+                  </a>
                </div>
-            </div>
          </nav>
       </div>
       </div>
@@ -139,7 +92,7 @@
                   last year, and in the navbar you'll find
                   links to my <strong><a href="https://www.linkedin.com/in/todd-trivisonno/"
                         target="_blank">LinkedIn</a></strong>, <strong><a href="https://github.com/toddtrivisonno"
-                        target="_blank">GitHub</a></strong>, and <strong><a href="#">email</a></strong>.
+                        target="_blank">GitHub</a></strong>, and <strong><a href="#email">email</a></strong>.
                   <br>
                   <br>
                   If you would like to learn more about me or are looking for some web development help, don't hesitate
@@ -267,6 +220,10 @@
       </div>
       </div>
       </div>
+
+      <iframe id="email"
+         src="https://docs.google.com/forms/d/e/1FAIpQLSe7JbI9iv4ZSDFHeTmLs_Z6zreEVk1Ngeex-5DLH3giRvFwlQ/viewform?embedded=true"
+         width="100%" height="930" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
    </main>
 
