@@ -7,6 +7,9 @@ body {
    color: #393D3F;
 }
 
+h1 {
+   font-family: 'Rock Salt', cursive;
+}
 
 /* body {
    background-color: linen;
