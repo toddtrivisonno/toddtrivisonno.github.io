@@ -11,108 +11,31 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="css/theme_1569179341378.css">
    <link href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 
 <body>
    <header>
       <div>
-         <nav class="navbar navbar-expand-md navbar-dark bg-primary pt-1 pb-1">
-            <div class="container">
-
-
-               <a href="#">
-                  <img src="img/TODD_AVATAR_48X48.png" class="card-img-top" alt="Pixel image of Todd">
-               </a>
-               <a class="btn btn-lg text-white mr-auto" href="#about" title="About Me">
-                  Todd Trivisonno
-               </a>
-
-               <!-- Toggler/collapsibe Button -->
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-               </button>
-
-               <!-- Nav Links -->
-               <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                  <a href="#projects" alt="Projects" title="Projects">
-                     <i class="fas fa-project-diagram fa-2x pr-2 text-white"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/todd-trivisonno/" target="_blank" alt="LinkedIn"
-                     title="LinkedIn">
-                     <i class="fab fa-linkedin fa-3x pr-2 text-white"></i>
-                  </a>
-                  <a href="https://github.com/toddtrivisonno" target="_blank" alt="GitHub" title="GitHub">
-                     <i class="fab fa-github-square fa-3x pr-2 text-white"></i>
-                  </a>
-                  <a href="#email" alt="email" title="Email" role="button">
-                     <i class="fas fa-envelope-square fa-3x pr-2 text-white"></i>
-                  </a>
-               </div>
-         </nav>
-      </div>
+         <div class="container">
+            <a href="index.html" class="text-decoration-none text-dark"><h1 class="text-center pt-4">Todd Trivisonno</h1></a>
+            <p class="text-center text-muted pb-3">UI/UX - Web Development - Project Management</p>
+            <nav class="d-flex justify-content-around" id="projects">
+               <a href="#projects" role="button" class="text-muted"><h4>Projects</h4></a>
+               <a href="#about" role="button" class="text-muted"><h4>About</h4></a>
+               <a href="#email" role="button" class="text-muted"><h4>Contact</h4></a>
+            </nav>
+            <hr class="mt-0 mb-4">
+         </div>
       </div>
    </header>
 
    <main>
-
-      <!-- About -->
-
-      <div class="container">
-         <hr>
-         <div class="row no-gutters position-relative" id="about">
-            <div class="col-md-6 mb-md-0 p-md-4">
-               <img src="img/family-photo-crop.jpeg" class="w-100 rounded" alt="a picture of todds family">
-            </div>
-            <div class="col-md-6 position-static p-4 pl-md-0">
-               <h3 class="mt-0" class="card-title">A bit about me.</h3>
-               <p class="card-text">
-                  Hello World! My name is Todd and I am in the process of making a career transition from outdoor guide
-                  to
-                  web and software developer.
-                  <br>
-                  <br>
-                  After spending a decade working full time in the outdoor recreation industry, guiding folks of all
-                  walks
-                  of life in the backcountry, I began looking into careers that would be friendlier towards family life.
-                  The outdoor industry is extremely rewarding, but also very taxing on being present for the kiddos.
-                  <br>
-                  <br>
-                  After a conversation with a friend, I began to seriously consider the tech industry. After all,
-                  technology
-                  is found in every field, it highly values creativity, and could provide a little more stability in the
-                  scheduling realm.
-                  <br>
-                  In the spring of 2019, I took an introduction to web development course, thoroughly enjoyed it, and in
-                  the fall I went all in and joined the full-stack Web Development Bootcamp provided by <strong><a
-                        href="https://www.awesomeinc.org/" target="_blank">Awesome Inc.</a></strong>
-                  <br>
-                  <br>
-                  Below you can check out some of my <strong><a href="#projects">projects</strong></a> completed in the
-                  last year, and in the navbar you'll find
-                  links to my <strong><a href="https://www.linkedin.com/in/todd-trivisonno/"
-                        target="_blank">LinkedIn</a></strong>, <strong><a href="https://github.com/toddtrivisonno"
-                        target="_blank">GitHub</a></strong>, and <strong><a href="#email">email</a></strong>.
-                  <br>
-                  <br>
-                  If you would like to learn more about me or are looking for some web development help, don't hesitate
-                  to
-                  reach out!
-                  <br>
-                  I am more of an "in-person" type of guy, so I'd also be happy to grab a coffee (or brew) with you.
-               </p>
-            </div>
-         </div>
-         <hr>
-      </div>
-
-
       <!-- Projects -->
-      <div class="container bg-warning p-2 rounded" id="projects">
-         <h1>Projects</h1>
-
-         <div class="card-deck pb-3">
-            <div class="card">
+      <div class="container bg-primary rounded">
+         <div class="card-deck">
+            <div class="card m-1">
                <a href="https://www.katakeo.com" target="_blank">
                   <img src="img/Katakeo_card_img.png" class="card-img-top" alt="katakeo image">
                   <div class="card-body">
@@ -121,71 +44,72 @@
                <p class="card-text">A web game to engage and assist my Sunday school students in learning core
                   teachings of the Bible. This was my final project for the Awesome Inc. Bootcamp, completed in a two
                   week sprint. Built with Laravel and React.</p>
+               <a href="katakeo-case.html" class="btn btn-outline-primary mt-0 mb-2">View Case Study</a>
                <p class="card-text"><small class="text-muted">Last updated December 10, 2019</small></p>
             </div>
          </div>
 
-         <div class="card">
+         <div class="card mt-1 mb-1 mr-0 ml-0">
             <a href="https://github.com/toddtrivisonno/react-triva" target="_blank">
                <img src="img/triva_screenshot.png" class="card-img-top" alt="triva website image">
                <div class="card-body">
                   <h5 class="card-title">Triva</h5>
             </a>
-            <p class="card-text">A Strava clone developed with Laravel and React.</p>
+            <p class="card-text">A Strava clone developed with Laravel and React. Links to GitHub repo.</p>
             <p class="card-text"><small class="text-muted">Last updated November 15, 2019</small></p>
          </div>
       </div>
 
-      <div class="card">
+      <div class="card m-1">
          <a href="https://toddtrivisonno.github.io/react-restaurant/" target="_blank">
             <img src="img/react_restaurant.png" class="card-img-top" alt="restaurant image">
             <div class="card-body">
                <h5 class="card-title">React Restaurant</h5>
          </a>
-         <p class="card-text">A website built for a fake restaurant using react and populated with an API.</p>
+         <p class="card-text">A website built for a fake restaurant using React, with a menu populated from an API.</p>
          <p class="card-text"><small class="text-muted">Last updated October 24, 2019</small></p>
       </div>
       </div>
       </div>
 
-      <div class="card-deck pb-3">
-         <div class="card">
+      <div class="card-deck">
+         <div class="card ml-1 mr-1 mb-1 mt-0">
             <a href="https://toddtrivisonno.github.io/puzzle-slider/" target="_blank">
                <img src="img/puzzle_slider.png" class="card-img-top" alt="puzzle slider image">
                <div class="card-body">
                   <h5 class="card-title">Puzzle Slider</h5>
             </a>
-            <p class="card-text">A dynamically rendered puzzle sliding game with javascript and cute kids.</p>
+            <p class="card-text">A dynamically rendered puzzle sliding game, utilizing Javascript and cute kids.</p>
             <p class="card-text"><small class="text-muted">Last updated October 10, 2019</small></p>
          </div>
       </div>
 
-      <div class="card">
+      <div class="card mt-0 mb-1 mr-0 ml-0">
          <a href="https://toddtrivisonno.github.io/calculated/" target="_blank">
             <img src="img/calculated.png" class="card-img-top" alt="calculated image">
             <div class="card-body">
                <h5 class="card-title">Calculated</h5>
          </a>
-         <p class="card-text">Recreating the iPhone calculator using vanilla javascript.</p>
+         <p class="card-text">Recreating the iPhone calculator using vanilla Javascript.</p>
          <p class="card-text"><small class="text-muted">Last updated October 6, 2019</small></p>
       </div>
       </div>
 
-      <div class="card">
+      <div class="card ml-1 mr-1 mb-1 mt-0">
          <a href="https://toddtrivisonno.github.io/tic-tac-toe/" target="_blank">
             <img src="img/tic_tac_toe.png" class="card-img-top" alt="tic-tac-toe image">
             <div class="card-body">
                <h5 class="card-title">Tic-Tac-Toe</h5>
          </a>
          <p class="card-text">A dynamically rendered version of the classic childhood game, Tic-Tac-Toe using
-            vanilla javascript.</p>
+            vanilla Javascript.</p>
          <p class="card-text"><small class="text-muted">Last updated September 27, 2019</small></p>
       </div>
       </div>
       </div>
 
-      <div class="card-deck pb-3">
-         <div class="card">
+      <div class="card-deck">
+         <div class="card ml-1 mr-1 mb-1 mt-0">
             <a href="https://toddtrivisonno.github.io/mobile-weather-app/" target="_blank">
                <img src="img/mobile_weather_app.png" class="card-img-top" alt="weather app image">
                <div class="card-body">
@@ -196,7 +120,7 @@
          </div>
       </div>
 
-      <div class="card">
+      <div class="card mt-0 mb-1 mr-0 ml-0">
 
          <a href="https://toddtrivisonno.github.io/campaign-website/" target="_blank">
             <img src="img/campaign_image.png" class="card-img-top" alt="campaign website image">
@@ -204,12 +128,12 @@
                <h5 class="card-title">Campaign Website</h5>
          </a>
          <p class="card-text">A mock campaign website for Ron Burgundy, Kentucky Constable. Built using vanilla
-            bootstrap.</p>
+            Bootstrap.</p>
          <p class="card-text"><small class="text-muted">Last updated September 21, 2019</small></p>
       </div>
       </div>
 
-      <div class="card">
+      <div class="card ml-1 mr-1 mb-1 mt-0">
          <a href="https://toddtrivisonno.github.io/mind-reader/" target="_blank">
             <img src="img/mind_reader.png" class="card-img-top" alt="mind reader image">
             <div class="card-body">
@@ -221,11 +145,69 @@
       </div>
       </div>
 
-      <iframe id="email"
-         src="https://docs.google.com/forms/d/e/1FAIpQLSe7JbI9iv4ZSDFHeTmLs_Z6zreEVk1Ngeex-5DLH3giRvFwlQ/viewform?embedded=true"
-         width="100%" height="930" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
    </main>
+
+   <!-- About -->
+
+   <div class="container">
+      <hr>
+      <div class="row no-gutters position-relative" id="about">
+         <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="img/family-photo-crop.jpeg" class="w-100 rounded" alt="a picture of todds family">
+         </div>
+         <div class="col-md-6 position-static p-4 pl-md-0">
+            <h3 class="mt-0 card-title text-muted">A bit about me.</h3>
+            <p class="card-text">
+               <!-- <p>
+                     <a class="btn btn-outline-primary" data-toggle="collapse" href="#aboutCollapse" role="button"
+                        aria-expanded="false" aria-controls="aboutCollapse">A bit <em>more</em> about me</a>
+                  </p> -->
+               <div class="row">
+                  <div class="col">
+                     <!-- <div class="collapse" id="aboutCollapse"> -->
+                     <!-- <div class="card card-body"> -->
+                     After spending a decade working full time in the outdoor recreation industry, guiding
+                     folks of all
+                     walks
+                     of life in the backcountry and in a dozen different countries, I'm now pursuing making a
+                     difference
+                     in the tech
+                     industry. My main focus is in development, project management, and user experience design.
+                     <br>
+                     <br>
+                     In the spring of 2019, I took an introduction to web development course, thoroughly
+                     enjoyed it, and in
+                     the fall I went all in and joined the full-stack Web Development Bootcamp provided by
+                     <strong><a href="https://www.awesomeinc.org/" target="_blank">Awesome Inc.</a></strong>
+                     <!-- </div> -->
+                     <!-- </div> -->
+                  </div>
+               </div>
+               Check out some of my <strong><a href="#projects">projects</strong></a>
+               completed recently, as well as links to my <strong><a href="https://www.linkedin.com/in/todd-trivisonno/"
+                     target="_blank">LinkedIn</a></strong>, <strong><a href="https://github.com/toddtrivisonno"
+                     target="_blank">GitHub</a></strong>, and
+               <strong><a href="#email">email</a></strong>.
+               <br>
+               <br>
+               If you would like to learn more about me or are looking for some web development help,
+               don't hesitate
+               to
+               reach out!
+               <br>
+               I am more of an "in-person" type of guy, so I'd also be happy to grab a coffee (or brew)
+               with you.
+            </p>
+         </div>
+      </div>
+      <hr>
+   </div>
+
+   <iframe id="email"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSe7JbI9iv4ZSDFHeTmLs_Z6zreEVk1Ngeex-5DLH3giRvFwlQ/viewform?embedded=true"
+      width="100%" height="930" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
 
    <footer>
 
