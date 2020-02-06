@@ -10,3 +10,11 @@ body {
 h1 {
    font-family: 'Rock Salt', cursive;
 }
+
+#katakeo-jumbotron {
+   background-image: url("/img/Wittenberg_crop.jpeg");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0em 0em 40vh;
+}
